@@ -1,5 +1,5 @@
 # RAP-210517
-Github repository for Revature Accelerator Program beginning May 17, 2021. THIS IS MY LOCAL CHANGE.
+Github repository for Revature Accelerator Program beginning May 17, 2021.
 
 # Resources
 * [Environment Set-Up](./environment-setup/environment-setup.md)
