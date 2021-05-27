@@ -5,6 +5,9 @@
 * Cloning 
 * Pushing/Pulling 
 * Forking
+* Branching 
+  * create a branch 
+  * push changes up to that new branch 
 
 ## Introduction to Programming
 * Computer memory structure (basics)
