@@ -1,10 +1,5 @@
 # Week 2 Topics
 
-## Git 
-* Branching 
- - create a branch 
- - push changes up to that new branch 
-
 ## Java 
 * Arrays
 * Flow Control
