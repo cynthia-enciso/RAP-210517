@@ -33,5 +33,5 @@
 * Methods
     - PASS BY VALUE --- REFERENCES
 * Strings
-    - [formatting](../StringFormatCheatSheet.md)
+    - formatting
 
