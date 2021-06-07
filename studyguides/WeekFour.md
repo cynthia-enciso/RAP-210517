@@ -13,8 +13,6 @@
 - Sorting 
     * Bubble sort 
     * Selection sort
-    * *Merge Sort*, *Quick sort*
-- Recursion (Optional)
 
 ## OOP Concepts
 * Inheritance 
