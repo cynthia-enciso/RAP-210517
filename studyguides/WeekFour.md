@@ -28,8 +28,6 @@
 
 
 ## Miscellaneous
-* Methods
-    - PASS BY VALUE --- REFERENCES
 * Strings
     - formatting
 
