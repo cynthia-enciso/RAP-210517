@@ -14,7 +14,7 @@
 3. Data Access is performed through the use of JDBC in a data layer consisting of Data Access Objects.
 4. All input is received using the java.util.Scanner class.
 5. Log4j is implemented to log events to a file.
-6. A minimum of 10 JUnit test is written to test some functionality.
+6. A minimum of 10 JUnit tests are written to test some functionality.
 
 
 ## User Stories
