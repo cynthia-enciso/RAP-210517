@@ -61,5 +61,5 @@
         * DISTINCT 
         * MAX
         * MIN
-        * AVE
+        * AVG
         * etc...
