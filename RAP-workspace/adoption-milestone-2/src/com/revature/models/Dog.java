@@ -10,14 +10,15 @@ public class Dog extends Animal {
 		
 		// custom properties
 		this.setName(name);
+		this.setAge(age);
 		this.setBreed(breed);
 		this.setTemperament(temperament);
-		this.setAge(age);
 		
 		// calculate and set cost
 		this.setPrice(age, this.getSpecies());
 	}
 	
+	// methods
 	@Override
 	public String toString() {
 		return String.format( "Name: %s%n"

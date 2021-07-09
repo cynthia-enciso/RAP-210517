@@ -1,12 +1,15 @@
 package com.revature.models;
-/* TODO: input validation:
-	- username cannot be empty
-	- password cannot be empty
- */
+
 public abstract class User {
 	// fields
 	private String username;
 	private String pass;
+	
+	//constructor
+	public User(String username, String pass) {
+		this.setUsername(username);
+		this.setPass(pass);
+	}
 	
 	// getters and setters
 	public String getUsername() {
@@ -18,8 +21,8 @@ public abstract class User {
 	public String getPass() {
 		return pass;
 	}
-	public void setPass(String password) {
-		this.pass = password;
+	public void setPass(String pass) {
+		this.pass = pass;
 	}
 	
 	

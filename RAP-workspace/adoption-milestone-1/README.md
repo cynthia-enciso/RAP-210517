@@ -1,4 +1,4 @@
-# AdoptionApp
+README.md# AdoptionApp
 
 ## Description
 This program allows customers to view and adopt animals by making offers on a particular animal. Employees can accept/deny an offer and keep track of the current and previously adoptable animals.
@@ -25,6 +25,6 @@ Total Points: 23 points
 
 * **(1)** As an employee, I can view the adoption records.
 
-* **(2)** As the system, I can set the price of inventory depending on it's properties.
+* ~~**(2)** As the system, I can set the price of inventory depending on it's properties.~~
 
 * **(2)** As the system, I can change the properties of a user.

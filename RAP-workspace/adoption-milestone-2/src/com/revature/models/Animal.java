@@ -1,7 +1,5 @@
 package com.revature.models;
 
-import java.util.Date;
-
 public abstract class Animal {
 	// fields
 	private String status;
@@ -10,7 +8,6 @@ public abstract class Animal {
 	private int age;
 	private String breed;
 	private String temperament;
-	private Date adoptionDate;
 	private String species;
 	private String ownerName;
 	
@@ -75,12 +72,7 @@ public abstract class Animal {
 	public void setTemperament(String temperament) {
 		this.temperament = temperament;
 	}
-	public Date getAdoptionDate() {
-		return adoptionDate;
-	}
-	public void setAdoptionDate(Date adoptionDate) {
-		this.adoptionDate = adoptionDate;
-	}
+	
 	public String getSpecies() {
 		return species;
 	}

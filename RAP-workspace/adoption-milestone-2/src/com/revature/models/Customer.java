@@ -8,6 +8,13 @@ public class Customer extends User {
 	private double funds;
 	private ArrayList<Animal> pets;
 	
+	// constructors
+	public Customer(String username, String pass, String name) {
+		super(username, pass);
+		this.setName(name);
+		this.setFunds(100);
+	}
+		
 	// getters and setters
 	public String getName() {
 		return name;
