@@ -3,10 +3,9 @@ package com.revature.models;
 public class Cat extends Animal {
 
 	// Constructor
-	public Cat(String name, int age, String breed, String temperament) {
+	public Cat(String status, String name, double age, String breed, String temperament) {
 		// default properties
 		this.setSpecies("Cat");
-		this.setStatus("Available");
 		
 		// custom properties
 		this.setName(name);
@@ -25,7 +24,7 @@ public class Cat extends Animal {
 		return String.format( "Name: %s%n"
 							+ "Temperament: %s%n"
 							+ "Breed: %s%n"
-							+ "Age: %d%n"
+							+ "Age: %.1f%n"
 							+ "Price: $%.2f%n", this.getName(), this.getTemperament(), this.getBreed(), this.getAge(), this.getPrice());
 	}
 		

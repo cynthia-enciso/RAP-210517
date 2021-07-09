@@ -5,7 +5,7 @@ public abstract class Animal {
 	private String status;
 	private String name;
 	private double price;
-	private int age;
+	private double age;
 	private String breed;
 	private String temperament;
 	private String species;
@@ -31,7 +31,7 @@ public abstract class Animal {
 	 * Dog prices: puppy = 25, adult = 20, senior = 15
 	 * Cat prices: kitten = 20, adult = 15, senior = 10 
 	 */
-	public void setPrice(int age, String type) {
+	public void setPrice(double age, String type) {
 		switch (type) {
 		case "Dog": if (age < 1) {
 						this.price = 25;
@@ -54,10 +54,10 @@ public abstract class Animal {
 		}
 		
 	}
-	public int getAge() {
+	public double getAge() {
 		return age;
 	}
-	public void setAge(int age) {
+	public void setAge(double age) {
 		this.age = age;
 	}
 	public String getBreed() {
@@ -85,6 +85,4 @@ public abstract class Animal {
 	public void setOwner(String ownerName) {
 		this.ownerName = ownerName;
 	}
-	
-	
 }
