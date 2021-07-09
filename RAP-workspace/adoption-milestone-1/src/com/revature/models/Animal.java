@@ -6,7 +6,7 @@ public abstract class Animal {
 	private String status;
 	private String name;
 	private double price;
-	private int age;
+	private double age;
 	private String breed;
 	private String temperament;
 	private String species;
