@@ -8,6 +8,7 @@ public class Cat extends Animal {
 		this.setSpecies("Cat");
 		
 		// custom properties
+		this.setStatus(status);
 		this.setName(name);
 		this.setAge(age);
 		this.setBreed(breed);
@@ -21,11 +22,13 @@ public class Cat extends Animal {
 	//methods
 	@Override
 	public String toString() {
-		return String.format( "Name: %s%n"
+		return String.format( "Status: %s%n"
+							+ "Name: %s%n"
 							+ "Temperament: %s%n"
 							+ "Breed: %s%n"
 							+ "Age: %.1f%n"
-							+ "Price: $%.2f%n", this.getName(), this.getTemperament(), this.getBreed(), this.getAge(), this.getPrice());
+							+ "Species: %s%n"
+							+ "Price: $%.2f%n", this.getStatus(), this.getName(), this.getTemperament(), this.getBreed(), this.getAge(), this.getSpecies(), this.getPrice());
 	}
 		
 }
