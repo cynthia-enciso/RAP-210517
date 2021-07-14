@@ -7,7 +7,7 @@ create table if not exists users(
 	username text primary key,
 	pass text not null,
 	name text,
-	funds numeric
+	funds double
 );
 
 create table if not exists animals(

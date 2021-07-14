@@ -1,23 +1,25 @@
 package com.revature.models;
 
-public class Dog extends Animal {
-	
+public class Cat extends Animal {
+
 	// Constructor
-	public Dog(String status, String name, double age, String breed, String temperament) {
+	public Cat(String status, String name, double age, String breed, String temperament, String owner) {
 		// default properties
-		this.setSpecies("Dog");
+		this.setSpecies("Cat");
 		
 		// custom properties
 		this.setName(name);
 		this.setAge(age);
 		this.setBreed(breed);
 		this.setTemperament(temperament);
+		this.setOwner(owner);
 		
 		// calculate and set cost
 		this.setPrice(age, this.getSpecies());
+		
 	}
 	
-	// methods
+	//methods
 	@Override
 	public String toString() {
 		return String.format( "Name: %s%n"
@@ -26,4 +28,5 @@ public class Dog extends Animal {
 							+ "Age: %.1f%n"
 							+ "Price: $%.2f%n", this.getName(), this.getTemperament(), this.getBreed(), this.getAge(), this.getPrice());
 	}
+		
 }

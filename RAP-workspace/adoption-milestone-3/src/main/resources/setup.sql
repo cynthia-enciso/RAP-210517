@@ -13,9 +13,9 @@ create table if not exists users(
 create table if not exists animals(
 	animal_id serial primary key,
 	status text not null,
-	name text not null,
-	price numeric not null,
-	age integer not null,
+	name text unique not null,
+	price double precision not null,
+	age double precision not null,
 	breed text not null,
 	species text not null,
 	temperament text not null,
