@@ -7,6 +7,11 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import com.revature.controllers.Controller;
+
 public class DAOUtility {
 
 	// shared, constant values
@@ -15,6 +20,7 @@ public class DAOUtility {
 	private static String CONNECTION_URL;
 	// create a connection object
 	private static Connection connection;
+	private static final Logger LOG = LogManager.getLogger(Controller.class);
 	
 	// static initialization block
 		// need to be outside of methods, inside of class
@@ -48,8 +54,7 @@ public class DAOUtility {
 			// close stream
 			inputStream.close();
 		} catch(IOException ex) {
-			System.out.println("Failed to load from properties file.");
-			ex.printStackTrace();
+			LOG.fatal("Failed to load from properties file.", ex);
 		}
 				
 	}
@@ -60,8 +65,7 @@ public class DAOUtility {
 			// registers a driver to driver manager: class responsible for getting a connection
 			Class.forName("org.postgresql.Driver");
 		}catch(ClassNotFoundException ex) {
-			System.out.println("Could not register driver!");
-			ex.printStackTrace();
+			LOG.fatal("Could not register driver!", ex);
 		}
 		
 		if (connection == null || connection.isClosed()) {
