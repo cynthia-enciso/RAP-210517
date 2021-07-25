@@ -74,4 +74,6 @@ In order to verify that your environment variable was properly set, please open 
 
 ![Echo Catalina Home](./images/echo.PNG)
 
+Note: You would need to use the command echo ${CATALINA_HOME} not echo %CATALINA_HOME%.
+
 At this point, the value of the CATALINA_HOME environment variable should be displayed.
