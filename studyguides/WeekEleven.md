@@ -52,9 +52,9 @@
 - Servlet Lifecycle
 - Servlet Container
 - web.xml
-- RequestDispatcher
-- HttpServlet 
-- HttpRequest
-- HttpResponse
+- RequestDispatcher interface
+- HttpServlet class
+- HttpServletRequest interface
+- HttpServletResponse interface
 - Creating and deploying a Java Servlet 
 
